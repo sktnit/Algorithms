@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1504356100 source:c:\users\sir_s\desktop\c++\countsort\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<cstdlib>
+

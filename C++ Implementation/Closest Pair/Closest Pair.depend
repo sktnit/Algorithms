@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1504370922 source:c:\users\sir_s\desktop\c++\closest pair\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<cstdlib>
+

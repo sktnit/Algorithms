@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1507106238 source:d:\c++\dijkstrall\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<climits>
+

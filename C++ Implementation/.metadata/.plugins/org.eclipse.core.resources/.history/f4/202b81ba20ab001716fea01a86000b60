@@ -1,0 +1,64 @@
+#include <vector>
+#include <iostream>
+#include <set>
+#include <list>
+#include <climits>
+using namespace std;
+
+class Edge
+{
+    public:
+    int dest, weight;
+    Edge(int x,int y)
+    {
+        dest=x;
+        weight=y;
+    }
+};
+
+int main()
+{
+    int num_of_v, num_of_e,vr;
+    cin >> num_of_v >> num_of_e;
+    vector<list<Edge> > adj_list(num_of_v);
+    vector<list<int> > parent(num_of_v,-1);
+    vector<int> path(num_of_v,1);
+    set<pair<int, int> > T;
+    set<int> A;
+    //vector<Edge> mst;
+    vector<int> distance(num_of_v,INT_MAX);
+    for (int i = 0; i < num_of_e; ++i)
+    {
+        int x,y,w;
+        cin >> x >> y >> w;
+        adj_list[x].push_back(Edge{y, w});
+        adj_list[y].push_back(Edge{x, w});
+    }
+    cin >> vr;
+    distance[vr] = 0;
+    T.insert(make_pair(0,vr));
+    while (!T.empty())
+    {
+        int temp = T.begin()->second;
+        A.insert(temp);
+        T.erase(T.begin());
+        list<Edge> li=adj_list[temp];
+        for (list<Edge>::iterator i=li.begin();i!=li.end();i++)
+        {
+            if (A.count(i->dest) == 1)
+                continue;
+            int v=i->dest;
+            int weight = i->weight;
+            if (distance[v] > distance[temp]+weight)
+            {
+                if(distance[v]!=INT_MAX)
+                    T.erase(T.find(make_pair(distance[v], v)));
+                distance[v] = distance[temp]+weight;
+                T.insert(make_pair(distance[v], v));
+            }
+        }
+
+    }
+    return 0;
+}
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1502285387 source:c:\users\sir_s\desktop\c++\bstceilvalue\main.cpp
+	<string>
+	<vector>
+	<iostream>
+	<algorithm>
+	<queue>
+
+1502285387 source:d:\c++\bstceilvalue\main.cpp
+	<string>
+	<vector>
+	<iostream>
+	<algorithm>
+	<queue>
+

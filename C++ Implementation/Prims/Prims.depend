@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1504773323 source:c:\users\sir_s\desktop\c++\prims\main.cpp
+	<vector>
+	<iostream>
+	<set>
+	<list>
+	<climits>
+
+1504773555 source:d:\c++\prims\main.cpp
+	<vector>
+	<iostream>
+	<set>
+	<list>
+	<climits>
+

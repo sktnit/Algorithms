@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1503832322 source:c:\users\sir_s\desktop\c++\splay tree\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+

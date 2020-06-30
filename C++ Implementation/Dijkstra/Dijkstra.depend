@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1506750913 source:d:\c++\dijkstra\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<list>
+	<iostream>
+	<algorithm>
+	<limits>
+

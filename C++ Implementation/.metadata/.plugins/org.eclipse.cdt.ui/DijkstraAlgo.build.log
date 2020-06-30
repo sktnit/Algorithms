@@ -1,0 +1,11 @@
+08:56:49 **** Rebuild of configuration Build (GNU) for project DijkstraAlgo ****
+Info: Internal Builder is used for build
+g++ -O2 -g -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:24:10: warning: variable 'visited' set but not used [-Wunused-but-set-variable]
+     bool visited[num_of_v];
+          ^~~~~~~
+g++ -o DijkstraAlgo main.o 
+
+08:56:59 Build Finished (took 9s.738ms)
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1507122611 source:d:\c++\betweenness centrality\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<climits>
+	<cstring>
+

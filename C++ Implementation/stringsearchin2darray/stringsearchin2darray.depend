@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1501844597 source:c:\users\sir_s\desktop\c++\stringsearchin2darray\main.cpp
+	<iostream>
+	<cstring>
+	<string>
+

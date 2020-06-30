@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1501648955 source:c:\users\sir_s\desktop\c++\abc\main.cpp
+	<iostream>
+	<cstdlib>
+	<climits>
+

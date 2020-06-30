@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1505806739 source:d:\c++\dijkstraalgo\main.cpp
+	<vector>
+	<iostream>
+	<set>
+	<list>
+	<climits>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1502562151 source:c:\users\sir_s\desktop\c++\avl_insert_delete_kmin\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+
