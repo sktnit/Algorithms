@@ -1,75 +1,75 @@
 # Algorithms
 
-##3DES 
+3DES 
 
-##AES
+AES
 
-##AVL_INSERT_DELETE_KMIN
+AVL_INSERT_DELETE_KMIN
 
-##Adjecency List
+Adjecency List
 
-##BST
+BST
 
-##BSTCeilValue
+BSTCeilValue
 
-##Bellman ford
+Bellman ford
 
-##Betweenness Centrality
+Betweenness Centrality
 
-##BrandeAlgo
+BrandeAlgo
 
-##Closest Pair
+Closest Pair
 
-##Copysplay
+Copysplay
 
-##Countsort
+Countsort
 
-##DES
+DES
 
-##Dijkstra
+Dijkstra
 
-##DijkstraAlgo
+DijkstraAlgo
 
-##DijkstraLL
+DijkstraLL
 
-##DisjointSet
+DisjointSet
 
-##DisjointSetForest
+DisjointSetForest
 
-##Example1
+Example1
 
-##KMP
+KMP
 
-##LRRR
+LRRR
 
-##LeftRightShiftUsingForloop
+LeftRightShiftUsingForloop
 
-##LeftShiftUsingQueue
+LeftShiftUsingQueue
 
-##MIN_HEAP
+MIN_HEAP
 
-##Naive
+Naive
 
-##Occurencesofstring
+Occurencesofstring
 
-##Prims
+Prims
 
-##Qsort
+Qsort
 
-##Queue
+Queue
 
-##Rectangle
+Rectangle
 
-##RectangleDs
+RectangleDs
 
-##RemoteSystemsTempFiles
+RemoteSystemsTempFiles
 
-##Travelling Hunt
+Travelling Hunt
 
-##VectorImplementation
+VectorImplementation
 
-##a3
+a3
 
-##splay tree
+splay tree
 
-##stringsearchin2darray
+stringsearchin2darray
